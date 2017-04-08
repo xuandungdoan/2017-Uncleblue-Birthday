@@ -147,9 +147,9 @@ function timeElapse(date, mode) {
 	}
 	var result = (years > 0 ? "<span class=\"digit\">" + years + "</span> year ":"")
 	result += (months >= 0 ? "<span class=\"digit\">" + months + "</span> month ":"");
-	result += "<span class=\"digit\">" + days + "</span> day ";
+	result += "<span class=\"digit\">" + days + "</span> days <br>";
 	result += "<span class=\"digit\">" + hours + "</span> hr "
-	result += "<span class=\"digit\">" + minutes + "</span> min "
+	result += "<span class=\"digit\">" + minutes + "</span> min <br>"
 	result += "<span class=\"digit\">" + seconds + "</span> sec";
 
 	$("#elapseClock").html(result);
