@@ -183,6 +183,7 @@
         // We can't be sure that `classList` is supported
         // body.className += " impress-not-supported ";
         document.getElementById("impress").style.display = 'none';
+        document.title = "Whoops!";
     } else {
         body.classList.remove( "impress-not-supported" );
         body.classList.add( "impress-supported" );
