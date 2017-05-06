@@ -5,7 +5,7 @@ It's a presentation page made for UncleBlue 20th birthday!
 
 Love U >3<
 
-Powered by `[Impress.js](https://github.com/impress/impress.js)` Project.
+Powered by [Impress.js](https://github.com/impress/impress.js) Project.
 
 
 Copyright
